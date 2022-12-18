@@ -1,0 +1,19 @@
+#parteuno{
+    border-radius: 20px;
+    border: 1px solid rgb(186, 185, 185);
+}
+#proyecto{
+    width: auto;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#puno{
+    width: 220px;
+    margin-left: 20px; 
+    float: left;
+}
+#resultado{
+    margin-left: 10px;
+}
+

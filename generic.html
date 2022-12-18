@@ -1,0 +1,198 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>calculadora</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="uno.css">
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>Calculadora</h1>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Content -->
+							<section id="content" class="main">
+
+								<div class="col-md-6">
+									<div id="parteuno">
+										<!-- mrv -->
+													<form id="proyecto" name="" method="post">
+														<div>
+														<center><h2>Movimiento rectilíneo uniforme</h2></center>
+														<div id="puno"><label>Posición inicial [x<sub>0</sub>]</label>
+														<input type="number" id="valor1"  placeholder="Posición inicial  = m" value=""><br></div>
+													
+														<div id="puno"><label>Velocidad [v]</label>
+														<input  type="number" id="valor2"  placeholder="Velocidad = = m/s" value=""><br></div>
+													
+														<div id="puno"><label>Tiempo [t]</label>
+														<input  type="number" id="valor3"  placeholder="Tiempo = s" value=""></div>
+													</form>
+													<div id="puno">
+														<br>
+													<button  type="button" onclick="sumar();">Respuesta</button></div>
+													<br><br><br><br> 
+													
+													<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;El resultado es: <span id="resultado"></span></p>
+												</div>
+												<div>
+												</div></div><!-- mrv fin--> <br>
+
+
+												<div id="parteuno">
+												<div>
+													<center><h2>Movimiento rectilíneo uniformemente acelerado</h2></center>
+													<div id="puno"><label>Posición inicial [x<sub>0</sub>]</label>
+													<input type="number" id="re1"  placeholder="Posición inicial  = m" value=""><br></div>
+
+													<div id="puno"><label>Velocidad inicial  [v<sub>0</sub>]</label>
+														<input type="number" id="re2"  placeholder="Posición inicial  = m" value=""><br></div>
+												
+													<div id="puno"><label>Aceleración  [a]</label>
+													<input  type="number" id="re3"  placeholder="Velocidad = = m/s" value=""><br></div>
+												
+													<div id="puno"><label>Tiempo [t]</label>
+													<input  type="number" id="re4"  placeholder="Tiempo = s" value=""></div>
+												</form>
+												<div id="puno">
+													<br>
+												<button  type="button" onclick="respuesta();">Respuesta</button></div>
+												<br><br><br><br> 
+												
+												<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;El resultado es: <span id="resultados"></span></p>
+											</div></div>
+
+											<!-- mrv fin--> <br>
+
+											<div id="parteuno">
+												<div>
+													<center><h2>Hallar la Fuera, Masa y Aceleración</h2></center>
+													<div id="puno"><label>Masa[m]</label>
+													<input type="number" id="res1"  placeholder="Posición inicial  = m" value=""><br></div>
+
+												</form>
+												<div id="puno">
+													<br>
+												<button  type="button" onclick="masa();">Respuesta</button></div>
+												<br><br><br><br> 
+												
+												<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;El Masa es: <span id="res"></span></p>
+
+
+												<div id="puno"><label>Aceleración[a]</label>
+													<input type="number" id="resp1"  placeholder="Posición inicial  = m" value=""><br></div>
+
+													<div id="puno"><label>Masa[m]</label>
+														<input type="number" id="resp2"  placeholder="Posición inicial  = m" value=""><br></div>
+
+												</form>
+												<div id="puno">
+													<br>
+												<button  type="button" onclick="acelera();">Respuesta</button></div>
+												<br><br><br><br> 
+												
+												<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;El aceleración es: <span id="respu1"></span></p>
+
+
+												<div id="puno"><label>Fuerza [f]</label>
+													<input type="number" id="respus1"  placeholder="Posición inicial  = m" value=""><br></div>
+
+													<div id="puno"><label>Aceleración [a]</label>
+														<input type="number" id="respus2"  placeholder="Posición inicial  = m" value=""><br></div>
+
+												</form>
+												<div id="puno">
+													<br>
+												<button  type="button" onclick="fuerza();">Respuesta</button></div>
+												<br><br><br><br> 
+												
+												<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La Fuerza es: <span id="resulta"></span></p>
+											</div>
+										
+										</div><br>
+										
+										
+										<div id="parteuno">
+											<div>
+												<center><h2>Fuerza de Fricción Estática</h2></center>
+												<div id="puno"><label>[u<sub>s</sub>]</label>
+												<input type="number" id="si1"  placeholder="Posición inicial  = m" value=""><br></div>
+
+												<div id="puno"><label>Masa [m]</label>
+													<input type="number" id="si2"  placeholder="Posición inicial  = m" value=""><br></div>
+											
+												<div id="puno"><label>Gravedad [g]</label>
+												<input  type="number" id="si3"  placeholder="Velocidad = = m/s" value=""><br></div>
+											
+											</form>
+											<div id="puno">
+												<br>
+											<button  type="button" onclick="fin();">Respuesta</button></div>
+											<br><br><br><br> 
+											
+											<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;El resultado es: <span id="final"></span></p>
+										</div></div>
+
+										<br>
+
+											<ul class="actions">
+												<li><a href="index.html" class="button">Regresar</a></li>
+											</ul>
+											
+											</div></div>
+
+
+											
+											
+
+													
+													
+									</div>
+
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						
+							
+							<ul class="icons">
+								<li><a href="#" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+								<li><a href="#" class="icon brands fa-dribbble alt"><span class="label">Dribbble</span></a></li>
+							</ul>
+						
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="js/uno.js"></script>
+
+	</body>
+</html>

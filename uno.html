@@ -1,0 +1,70 @@
+<!--Cabezera-->
+<div class="container app-nav">
+  <div class="col-xs-12">
+    <p class="text-center app-nav-font">Ley de OHM</p>
+  </div>
+  <div class="app-nav-description">
+    <p>
+      La ley de OHM establece que el voltaje entre los extremos de muchos tipos de materiales conductores es directamente proporcional a la corriente que fluye a traves del material.
+    </p>
+  </div>
+</div>
+
+<!--Contenedor-->
+<div class="container app-contenedor">
+  <form class="form-inline">
+    <!--V = R * I -->
+    <div class="form-group">
+      <label>R</label>
+      <input type="text" class="app-input" id="resistencia_vri"></input>
+    </div>
+    <div class="form-group">
+      <label>* I</label>
+      <input type="text" class="app-input" id="corriente_vri"></input>
+    </div>
+    <div class="form-group">
+      <label>= V</label>
+      <input type="text" class="app-input" id="voltaje_vri"></input>
+    </div>
+    <div class="">
+      <button class="btn app-resultado app-resultado-boton" type="button" id="calcular" onclick="obtenerVoltaje()">Calcular</button>
+    </div>
+
+    <!--I = V / R -->
+    <div class="form-group">
+      <label>V</label>
+      <input type="text" class="app-input" id="voltaje_ivr"></input>
+    </div>
+    <div class="form-group">
+      <label>/ R</label>
+      <input type="text" class="app-input" id="resistencia_ivr"></input>
+    </div>
+    <div class="form-group">
+      <label>= I</label>
+      <input type="text" class="app-input" id="corriente_ivr"></input>
+    </div>
+    <div class="">
+      <button class="btn app-resultado app-resultado-boton" type="button" id="calcular" onclick="obtenerCorriente()">Calcular</button>
+    </div>
+
+    <!--R = V / I -->
+    <div class="form-group">
+      <label>V</label>
+      <input type="text" class="app-input" id="voltaje_rvi"></input>
+    </div>
+    <div class="form-group">
+      <label>/ I</label>
+      <input type="text" class="app-input" id="corriente_rvi"></input>
+    </div>
+    <div class="form-group">
+      <label>= R</label>
+      <input type="text" class="app-input" id="resistencia_rvi"></input>
+    </div>
+    <div class="">
+      <button class="btn app-resultado app-resultado-boton" type="button" id="calcular" onclick="obtenerResistencia()">Calcular</button>
+    </div>
+  </form>
+</div>
+<!--Pie de pagina-->
+<div class="container app-footer">
+</div>

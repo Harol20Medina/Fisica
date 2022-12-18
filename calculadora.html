@@ -1,0 +1,164 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>calculadora</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="uno.css">
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>Calculadora</h1>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Content -->
+							<section id="content" class="main">
+
+								<div class="col-md-6">
+									<div id="parteuno">
+										<!-- mrv -->
+													<form id="proyecto" name="" method="post">
+														<div>
+														<center><h2>Calcular la Intensidad</h2></center>
+														
+                                                        <div id="puno">
+                                                            <label>Voltaje [V] </label>
+                                                            <input type="number" class="app-input" id="voltaje_ivr" placeholder="Voltaje  = v"></input>
+                                                          </div>
+                                                          <div id="puno">
+                                                            <label>/ Resistencia [r]</label>
+                                                            <input type="number" class="app-input" id="resistencia_ivr" placeholder="Resistencia = r"></input>
+                                                          </div>
+                                                          <div id="puno">
+                                                            <label>= Intensidad [i]</label>
+                                                            <input type="number" class="app-input" id="corriente_ivr" placeholder="Intensidad  = i"></input>
+                                                          </div> <br><br>
+                                                          <div id="puno">
+                                                            <button class="btn app-resultado app-resultado-boton" type="button" id="calcular" onclick="obtenerCorriente()">Calcular</button>
+                                                          </div>
+													
+													</form>
+													<div id="puno"></div>
+                                                    <br>
+                                                    <br>
+												</div>
+												<div>
+												</div></div><!-- mrv fin--> <br>
+
+
+												<div id="parteuno">
+												<div>
+                                                    <center><h2>Calcular la Resistencia</h2></center>
+
+                                                    <div id="puno">
+                                                        <label>Voltaje [V]</label>
+                                                        <input type="number" class="app-input" id="voltaje_rvi" placeholder="Voltaje  = v"></input>
+                                                      </div>
+                                                      <div id="puno">
+                                                        <label>/ Intensidad [i]</label>
+                                                        <input type="number" class="app-input" id="corriente_rvi" placeholder="Intensidad  = i"></input>
+                                                      </div>
+                                                      <div id="puno">
+                                                        <label>= Resistencia [r]</label>
+                                                        <input type="number" class="app-input" id="resistencia_rvi" placeholder="Resistencia = r"></input>
+                                                      </div> <br><br>
+                                                      <div id="puno">
+                                                        <button class="btn app-resultado app-resultado-boton" type="button" id="calcular" onclick="obtenerResistencia()">Calcular</button>
+                                                      </div>
+													
+												</form>
+												<div id="puno">
+													</div>
+												<br><br>
+											</div></div>
+
+											<!-- mrv fin--> <br>
+
+											
+										
+										<div id="parteuno">
+											<div>
+                                                <center><h2>Calcular el Voltaje</h2></center>
+
+                                                <div id="puno"><label>Resistencia [r]</label>
+                                                    <input type="number" class="app-input" id="resistencia_vri" placeholder="Resistencia  = r"></input>
+                                                  </div>
+                                                  <div id="puno">
+                                                    <label>*  Intensidad [i]</label>
+                                                    <input type="number" class="app-input" id="corriente_vri" placeholder="Intensidad  = i"></input>
+                                                  </div>
+                                                  <div id="puno">
+                                                    <label>= Voltaje [V]</label>
+                                                    <input type="number" class="app-input" id="voltaje_vri" placeholder="Voltaje  = V"></input>
+                                                  </div>
+                                                  <div id="puno"><br><br>
+                                                    <button class="btn app-resultado app-resultado-boton" type="button" id="calcular" onclick="obtenerVoltaje()">Calcular</button>
+                                                  </div>
+											</form>
+											<div id="puno"></div>
+											<br><br><br><br> 
+											
+										</div></div>
+
+										<br>
+
+											<ul class="actions">
+												<li><a href="index.html" class="button">Regresar</a></li>
+											</ul>
+											
+											</div></div>
+
+
+											
+											
+
+													
+													
+									</div>
+
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						
+							
+							<ul class="icons">
+								<li><a href="#" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+								<li><a href="#" class="icon brands fa-dribbble alt"><span class="label">Dribbble</span></a></li>
+							</ul>
+						
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="js/uno.js"></script>
+
+	</body>
+</html>
